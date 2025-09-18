@@ -1,0 +1,41 @@
+button {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: 8px;
+}
+
+a {
+    text-decoration: none; /* Remove underline */
+    font-size: larger;
+    font-weight: bolder; /* Make text bold */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    /* text-transform: uppercase; */
+    color: black;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex; /* Center-align text vertically and horizontally */
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0; /* Default background color */
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out; /* Color transition effect */
+}
+
+
+/* Define color change on hover */
+li:hover {
+    transform: scale(1.1); /* Scale up on hover */
+    background-color: #FFD700; /* Change background color on hover */
+    color: #333; /* Change text color on hover */
+}
